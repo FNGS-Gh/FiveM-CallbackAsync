@@ -39,7 +39,7 @@ The system has two entry points:
 1. `class CbManager` for client-side;
 2. `class CbHandler` for server-side.
 
-The `CbManager` is responsible solely for triggering the mounted callback function on server and applying a corresponding action after any response is received. In the meantime, the `CbHandler` intercepts any inbound callback requests and executes a corresponding mounted function. For the client ↔ server communication, the script utilizes standard `emitNet()` to send network events and `onNet()` to retrieve network events.
+The `CbManager` is responsible solely for triggering the mounted callback function on server and applying a corresponding action after any response is received. In the meantime, the `CbHandler` intercepts any inbound callback requests and executes a corresponding mounted function. For the client ↔ server communication, the script utilizes standard `emitNet()` to send network events and `onNet()` to retrieve them.
 
 ### Example Usage:
 
