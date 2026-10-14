@@ -1,1 +1,1 @@
-"use strict";(()=>{})();
+"use strict";(()=>{var r={unhandled:(n,e,t)=>`[CbHandler${e?`:${e}`:""}] Unhandled Event: ${n} ${t?`| Player ID: ${t}`:""}`,exception:(n,e,t)=>`[CbHandler${e?`:${e}`:""}] Exception caught. Event: ${n} ${t?`| Player ID: ${t}`:""}`,overwrite:n=>`[CbHandler] Overwriting existing callback instance. Event: ${n}`,unknown:n=>`[CbHandler] Trying to unmount unknown callback instance. Event: ${n}`};})();
